@@ -1,4 +1,4 @@
-package com.TrustCommerce;
+package com.trustcommerce;
 
 import java.io.File;
 import java.io.FileInputStream;

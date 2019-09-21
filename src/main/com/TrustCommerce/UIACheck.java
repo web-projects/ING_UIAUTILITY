@@ -1,4 +1,4 @@
-package com.TrustCommerce;
+package com.trustcommerce;
 
 import java.util.Enumeration;
 import java.io.BufferedReader;

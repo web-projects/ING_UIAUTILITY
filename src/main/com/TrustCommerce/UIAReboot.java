@@ -1,4 +1,4 @@
-package com.TrustCommerce;
+package com.trustcommerce;
 
 import com.ingenico.api.jpos.IngenicoMSR;
 
