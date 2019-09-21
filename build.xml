@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project default="create_run_jar" name="Create Runnable Jar for Project UIAUtility">
+    <!--this file was created by Eclipse Runnable JAR Export Wizard-->
+    <!--ANT 1.7 is required                                        -->
+    <!--define folder properties-->
+    <property name="dir.buildfile" value="."/>
+    <property name="dir.workspace" value="C:/Users/jonbianco/workspace"/>
+    <property name="dir.jarfile" value="${dir.buildfile}"/>
+    <target name="create_run_jar">
+        <jar destfile="${dir.jarfile}/UIAUtility.jar" filesetmanifest="mergewithoutmain">
+            <manifest>
+                <attribute name="Main-Class" value="com.TrustCommerce.UIAUtility"/>
+                <attribute name="Class-Path" value="."/>
+            </manifest>
+            <fileset dir="C:/Development/Java/ING_UIAUTILITY/target/classes"/>
+            <zipfileset excludes="META-INF/*.SF" src="C:/Development/Java/ING_UIAUTILITY/lib/ijpos113_svcs_sun.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="C:/Development/Java/ING_UIAUTILITY/lib/jpos113.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="C:/Development/Java/ING_UIAUTILITY/lib/comm.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="C:/Development/Java/ING_UIAUTILITY/lib/tcIngenico.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="C:/Development/Java/ING_UIAUTILITY/lib/xercesImpl-2.11.0.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="C:/Users/jonbianco/.m2/repository/xerces/xercesImpl/2.11.0/xercesImpl-2.11.0.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="C:/Users/jonbianco/.m2/repository/xml-apis/xml-apis/1.4.01/xml-apis-1.4.01.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="C:/Users/jonbianco/.m2/repository/xalan/xalan/2.7.2/xalan-2.7.2.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="C:/Users/jonbianco/.m2/repository/xalan/serializer/2.7.2/serializer-2.7.2.jar"/>
+        </jar>
+    </target>
+</project>
