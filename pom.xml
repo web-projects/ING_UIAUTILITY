@@ -87,8 +87,7 @@
                         <mainClass>org.eclipse.jdt.internal.jarinjarloader.JarRsrcLoader</mainClass>
                     </manifest>
                     <manifestEntries>
-                        <Rsrc-Class-Path>./ ijpos113_svcs_sun.jar jpos113.jar
-                        </Rsrc-Class-Path>
+                        <Rsrc-Class-Path>./ ijpos113_svcs_sun.jar jpos113.jar</Rsrc-Class-Path>
                         <Rsrc-Main-Class>com.trustcommerce.UIAUtility</Rsrc-Main-Class>
                         <Class-Path>.</Class-Path>
                     </manifestEntries>

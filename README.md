@@ -13,6 +13,12 @@ This a utility application to reboot Ingenico UIA Devices.
 * Summary of set up
 * Configuration
 * Dependencies
+
+Install local jars as follows:
+mvn install:install-file
+
+* https://maven.apache.org/guides/mini/guide-3rd-party-jars-local.html
+
 * Database configuration
 * How to run tests
 * Deployment instructions
