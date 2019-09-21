@@ -79,30 +79,19 @@
                     </goals>
                 </execution>
             </executions>
-            <!--configuration>
-                <archive>
-                    <manifest>
-                        <addClasspath>true</addClasspath>
-                        <mainClass>com.TrustCommerce.UIAUtility</mainClass>
-                    </manifest>
-                </archive>
-                <descriptorRefs>
-                    <descriptorRef>jar-with-dependencies</descriptorRef>
-                </descriptorRefs>
-            </configuration-->
             <configuration>
                 <archive>
                     <manifest>
                         <addClasspath>true</addClasspath>
+                        <!-- <mainClass>com.trustcommerce.UIAUtility</mainClass> -->
                         <mainClass>org.eclipse.jdt.internal.jarinjarloader.JarRsrcLoader</mainClass>
                     </manifest>
                     <manifestEntries>
                         <Rsrc-Class-Path>./ ijpos113_svcs_sun.jar jpos113.jar
                         </Rsrc-Class-Path>
-                        <Rsrc-Main-Class>com.TrustCommerce.UIAUtility</Rsrc-Main-Class>
+                        <Rsrc-Main-Class>com.trustcommerce.UIAUtility</Rsrc-Main-Class>
                         <Class-Path>.</Class-Path>
                     </manifestEntries>
-                
                 </archive>
                 <descriptorRefs>
                     <descriptorRef>jar-with-dependencies</descriptorRef>
