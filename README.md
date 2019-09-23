@@ -15,8 +15,13 @@ This a utility application to reboot Ingenico UIA Devices.
 * Dependencies
 
 Install local jars as follows:
-mvn install:install-file
+mvn install:install-file -Dfile=<path-to-file> -DgroupId=<group-id> \
+    -DartifactId=<artifact-id> -Dversion=<version> -Dpackaging=<packaging>
+    
+example:
+mvn install:jar-in-jar-loader.jar -Dfile=C:\Development\Java\ING_UIAUTILITY\lib\jar-in-jar-loader.jar -DgroupId=org.eclipse.jdt.internal -DartifactId=jarinjarloader -Dversion=1.1 -Dpackaging=jar
 
+    
 * https://maven.apache.org/guides/mini/guide-3rd-party-jars-local.html
 
 * Database configuration
@@ -39,3 +44,4 @@ mvn install:install-file
 * 20181213 - Added REBOOT and IDENTIFY commands.
 * 20181213 - Fixes to REBOOT options.
 * 20190921 - Added maven build support.
+* 20190923 - Added sample maven jar install.

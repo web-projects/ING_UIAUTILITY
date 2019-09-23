@@ -83,7 +83,6 @@
                 <archive>
                     <manifest>
                         <addClasspath>true</addClasspath>
-                        <!-- <mainClass>com.trustcommerce.UIAUtility</mainClass> -->
                         <mainClass>org.eclipse.jdt.internal.jarinjarloader.JarRsrcLoader</mainClass>
                     </manifest>
                     <manifestEntries>
@@ -149,6 +148,11 @@
         	<groupId>com.trustcommerce</groupId>
         	<artifactId>tcIngenico</artifactId>
         	<version>4.2.8</version>
+        </dependency>
+        <dependency>
+          <groupId>org.eclipse.jdt.internal</groupId>
+          <artifactId>jar-in-jar-loader</artifactId>
+          <version>1.1</version>
         </dependency>
         
     </dependencies>
