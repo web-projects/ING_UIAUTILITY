@@ -19,9 +19,8 @@ mvn install:install-file -Dfile=<path-to-file> -DgroupId=<group-id> \
     -DartifactId=<artifact-id> -Dversion=<version> -Dpackaging=<packaging>
     
 example:
-mvn install:install-file -Dfile=C:\Development\Java\ING_UIAUTILITY\lib\jar-in-jar-loader.jar -DgroupId=org.eclipse.jdt.internal -DartifactId=jarinjarloader -Dversion=1.1 -Dpackaging=jar
+mvn install:install-file -Dfile=C:\Development\Java\ING_UIAUTILITY\lib\jar-in-jar-loader-1.1.jar -DgroupId=org.eclipse.jdt.internal -DartifactId=jar-in-jar-loader -Dversion=1.1 -Dpackaging=jar
 
-    
 * https://maven.apache.org/guides/mini/guide-3rd-party-jars-local.html
 
 * Database configuration
